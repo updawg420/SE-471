@@ -3,20 +3,23 @@ package sorting;
 import model.Product;
 import java.util.List;
 
+import static sorting.LogProxy.logProducts;
+
 public class SortingUtility {
 
     // Public Method, calls the specified sorting algorithm
-    public List<Product> sort(List<Product> items, int sortingApproach){
+    public static List<Product> sort(List<Product> items, int sortingApproach){
         if(sortingApproach == 1){ // Bubble Sort
-            //bubbleSort(items);
+            //return bubbleSort(items);
 
         } else if(sortingApproach == 2){ // Quick Sort
-            //quickSort(items, 0, items.size()-1);
+            //return quickSort(items, 0, items.size()-1);
 
         }
         else {
             System.out.println("Please pick a valid Sorting Approach");
         }
+        return null;
     }
 
 
@@ -36,20 +39,20 @@ public class SortingUtility {
                     swapped = true;
                 }
             }
-
             // if no two elements were swapped in the inner loop, then break
             if (!swapped) {
                 break;
             }
         }
-
+        logProducts(items);
+        return items;
     }
 
     // Private Utility Method using Quick Sort
     // returns in order: Name, ID, & Price
     private List<Product> quickSort(List<Product> items) {
 
-
-
+        logProducts(items);
+        return null;
     }
 }
