@@ -3,7 +3,7 @@ package sorting;
 import model.Product;
 import java.util.List;
 
-import static sorting.LogProxy.logProducts;
+import static sorting.Log_SortingUtilityProxy.logProducts;
 
 public class SortingUtility {
 
