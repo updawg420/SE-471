@@ -24,7 +24,6 @@ public class SortingUtility {
 
 
     // Private Utility Method using Quick Sort
-    // returns in order: ID, Name, & Price
     private List<Product> bubbleSort(List<Product> items) {
 
         int n = items.size();
