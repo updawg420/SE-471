@@ -35,6 +35,7 @@ public class Client {
             products.add(new Product(id, name, price));
         }
         */
+
         // Print Sorted Products
         // Bubble Sort returns in order: ID, Name, & Price
         // Quick Sort returns in order: Name, ID, & Price
