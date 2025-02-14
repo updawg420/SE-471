@@ -12,6 +12,7 @@ public class Client {
         products.add(new Product(580, "ALL BEEF HOT DOG", 1.50));
         products.add(new Product(840, "CHICKEN BAKE", 2.99));
         products.add(new Product(760, "COMBO PIZZA SLICE", 1.99));
+        products.add(new Product(1200, "DOUBLE CHUNK CHOCOLATE COOKIE!", 4.99));
 
         /*
         // Manual Product Input
