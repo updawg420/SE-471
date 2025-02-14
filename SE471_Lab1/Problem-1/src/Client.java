@@ -43,7 +43,6 @@ public class Client {
         for (Product prod : products) {
             System.out.println(prod.getId() + ", " + prod.getName() + ", " + prod.getPrice());
 
-
         }
         new Log_SortingUtilityProxy(products);
     }
