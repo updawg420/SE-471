@@ -3,6 +3,7 @@ import sorting.Log_SortingUtilityProxy;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Client {
     public static void main(String[] args) {
@@ -35,15 +36,21 @@ public class Client {
         }
         */
         // Print Sorted Products
+        // Bubble Sort returns in order: ID, Name, & Price
+        // Quick Sort returns in order: Name, ID, & Price
+        Scanner scan = new Scanner(System.in);
         System.out.println("\nHow would you like to sort the products?  (1 = bubblesort, 2 = quicksort)");
-
-
-        // Print Products
-        System.out.println("\nList of Products:");
-        for (Product prod : products) {
-            System.out.println(prod.getId() + ", " + prod.getName() + ", " + prod.getPrice());
-
+        int choice = scan.nextInt();
+        if (choice == 1) {
+            Log_SortingUtilityProxy.sort(products, choice);
+            Log_SortingUtilityProxy.logProducts(products, choice);
         }
-        new Log_SortingUtilityProxy(products);
+        else if (choice == 2) {
+            Log_SortingUtilityProxy.sort(products, choice);
+            Log_SortingUtilityProxy.logProducts(products, choice);
+        }
+        else{
+            System.out.println("Invalid Input");
+        }
     }
 }

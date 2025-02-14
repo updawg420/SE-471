@@ -9,7 +9,6 @@ import java.util.List;
 import static sorting.Log_SortingUtilityProxy.logProducts;
 
 public class SortingUtility {
-    List<Product> items;
     // Public Method, calls the specified sorting algorithm
     public static List<Product> sort(List<Product> items, int sortingApproach){
         if(sortingApproach == 1){ // Bubble Sort
