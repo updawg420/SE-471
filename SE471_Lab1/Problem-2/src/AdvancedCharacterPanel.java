@@ -20,10 +20,10 @@ public class AdvancedCharacterPanel implements CharacterPanel {
 
     public String getCharImage() {
         if (getSelectedChar().equals("Character 1 Advanced")) {
-            return "src/Images/Advanced1.png";
+            return "SE471_Lab1/Problem-2/src/Images/Advanced1.png";
         }
         else if (getSelectedChar().equals("Character 2 Advanced")) {
-            return "src/Images/Advanced2.png";
+            return "SE471_Lab1/Problem-2/src/Images/Advanced2.png";
         }
         else {
             return "";

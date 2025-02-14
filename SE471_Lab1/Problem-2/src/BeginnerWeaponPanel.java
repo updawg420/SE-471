@@ -24,10 +24,10 @@ public class BeginnerWeaponPanel implements WeaponPanel {
     //return the location of the weapon image
     public String getWepImage() {
         if (getSelectedWep().equals("Weapon 1 Beginner")) {
-            return "src/Images/Weapon1Beg.png";
+            return "SE471_Lab1/Problem-2/src/Images/Weapon1Beg.png";
         }
         else if (getSelectedWep().equals("Weapon 2 Beginner")) {
-            return "src/Images/Weapon2Beg.png";
+            return "SE471_Lab1/Problem-2/src/Images/Weapon2Beg.png";
         }
         else {
             return "";

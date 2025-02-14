@@ -66,7 +66,6 @@ public class Client {
                 factory[0] = Utility.getFactory(currentMode[0]);
                 characterPanel[0] = factory[0].createCharPanel();
                 weaponPanel[0] = factory[0].createWepPanel();
-
                 frame.getContentPane().removeAll();
                 frame.add(characterPanel[0].getPanel());
                 frame.add(weaponPanel[0].getPanel());
@@ -85,7 +84,6 @@ public class Client {
                 factory[0] = Utility.getFactory(currentMode[0]);
                 characterPanel[0] = factory[0].createCharPanel();
                 weaponPanel[0] = factory[0].createWepPanel();
-
                 frame.getContentPane().removeAll();
                 frame.add(characterPanel[0].getPanel());
                 frame.add(weaponPanel[0].getPanel());
@@ -109,6 +107,7 @@ public class Client {
                 selectedCharacterPanel.removeAll();
                 selectedWeaponPanel.removeAll();
                 selectedCharacterPanel.add(new JLabel("Selected Character: " + selectedCharacter));
+                //check if an image was returned before resizing and adding
                 if (!characterImage.isEmpty()) {
                     selectedCharacterPanel.add(new JLabel(resizeImage(characterImage, 200, 300)));
                 }

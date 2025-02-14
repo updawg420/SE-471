@@ -23,10 +23,10 @@ public class BeginnerCharacterPanel implements CharacterPanel {
     //return image location of the selected character based on name selected from combobox
     public String getCharImage() {
         if (getSelectedChar().equals("Character 1 Beginner")) {
-            return "src/Images/Beginner1.png";
+            return "SE471_Lab1/Problem-2/src/Images/Beginner1.png";
         }
         else if (getSelectedChar().equals("Character 2 Beginner")) {
-            return "src/Images/Beginner2.png";
+            return "SE471_Lab1/Problem-2/src/Images/Beginner2.png";
         }
         else {
             return "";

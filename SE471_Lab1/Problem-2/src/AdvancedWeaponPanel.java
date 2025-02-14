@@ -20,10 +20,10 @@ public class AdvancedWeaponPanel implements WeaponPanel {
 
     public String getWepImage() {
         if (getSelectedWep().equals("Weapon 1 Advanced")) {
-            return "src/Images/Weapon1Adv.png";
+            return "SE471_Lab1/Problem-2/src/Images/Weapon1Adv.png";
         }
         else if (getSelectedWep().equals("Weapon 2 Advanced")) {
-            return "src/Images/Weapon2Adv.png";
+            return "SE471_Lab1/Problem-2/src/Images/Weapon2Adv.png";
         }
         else {
             return "";

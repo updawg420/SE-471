@@ -20,10 +20,10 @@ public class IntermediateWeaponPanel implements WeaponPanel {
 
     public String getWepImage() {
         if (getSelectedWep().equals("Weapon 1 Intermediate")) {
-            return "src/Images/Weapon1Inter.png";
+            return "SE471_Lab1/Problem-2/src/Images/Weapon1Inter.png";
         }
         else if (getSelectedWep().equals("Weapon 2 Intermediate")) {
-            return "src/Images/Weapon2Inter.png";
+            return "SE471_Lab1/Problem-2/src/Images/Weapon2Inter.png";
         }
         else {
             return "";

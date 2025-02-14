@@ -1,4 +1,5 @@
 import model.Product;
+import sorting.Log_SortingUtilityProxy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,5 +44,6 @@ public class Client {
 
 
         }
+        new Log_SortingUtilityProxy(products);
     }
 }

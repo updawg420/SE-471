@@ -22,10 +22,10 @@ public class IntermediateCharacterPanel implements CharacterPanel {
 
     public String getCharImage() {
         if (getSelectedChar().equals("Character 1 Intermediate")) {
-            return "src/Images/Intermediate1.png";
+            return "SE471_Lab1/Problem-2/src/Images/Intermediate1.png";
         }
         else if (getSelectedChar().equals("Character 2 Intermediate")) {
-            return "src/Images/Intermediate2.png";
+            return "SE471_Lab1/Problem-2/src/Images/Intermediate2.png";
         }
         else {
             return "";
